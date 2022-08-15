@@ -1,0 +1,32 @@
+.cart {
+  position: fixed;
+  right: 2rem;
+  top: 0;
+  width: 20rem;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.05);
+  border: 1px solid lightgray;
+  overflow: scroll;
+}
+
+.cart .cart_header {
+  background: black;
+  height: 3rem;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+  padding: 0 0 0 1rem;
+}
+
+.cart_price {
+  margin: 0 0 0 0.2rem;
+}
+
+.cart ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

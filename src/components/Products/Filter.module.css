@@ -1,0 +1,25 @@
+.filter {
+  width: 13rem;
+  background: white;
+  border: none;
+  outline: none;
+  padding: 0 0 0 0.5rem;
+}
+
+.filter input:focus {
+  background: white;
+  border: none;
+  outline: none;
+}
+
+.filter_container {
+  width: 15rem;
+  margin: 1rem 0 1rem 2rem;
+  background: white;
+  border-radius: 10px;
+  height: 1.2rem;
+  padding: 0.3rem;
+  border-width: 0;
+  border-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}

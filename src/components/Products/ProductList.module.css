@@ -1,0 +1,21 @@
+.grid_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.products_container {
+  margin: 0 24rem 0 2rem;
+}
+
+.products_container ul {
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.products_container li {
+  width: 12rem;
+  margin: 0 6px;
+  padding: 0 0 32px 0;
+  background: white;
+}

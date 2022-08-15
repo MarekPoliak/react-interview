@@ -1,0 +1,33 @@
+.product_card {
+  text-align: center;
+}
+
+.product_image {
+  margin: 0 0 0.5rem 0;
+  height: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_image img {
+  max-width: 70%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.product_name {
+  height: 2.7rem;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+.product_price {
+  height: 2rem;
+}
+
+.product_button_container {
+  padding: 0.7rem 0 0 0;
+}
